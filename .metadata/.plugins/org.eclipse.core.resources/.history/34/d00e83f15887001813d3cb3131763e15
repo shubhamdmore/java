@@ -1,0 +1,23 @@
+
+public class thisTest {
+
+	/**
+	 * @param args
+	 */
+	int roll;
+	String name;
+	void diplay(int roll,String name)
+	{
+		roll=roll;
+		name=name;
+		System.out.println(roll);
+		System.out.println(name);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		thisTest obj=new thisTest();
+		obj.diplay(21,"Aishwarya");
+	}
+
+}

@@ -1,0 +1,25 @@
+import java.util.*;
+public class Fibonacy {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner in = new Scanner(System.in);
+		int n1=0,n2=1,n3;
+		
+		System.out.println("enter any number for fibbonacy series");
+		int no=in.nextInt();
+		System.out.print("\t"+n1);
+		System.out.print("\t"+n2);
+		for(int i=2;i<=no;i++)
+		{
+			n2=n1;
+			n3=n2;
+			System.out.print("\t"+n3);
+		}
+	}
+
+}

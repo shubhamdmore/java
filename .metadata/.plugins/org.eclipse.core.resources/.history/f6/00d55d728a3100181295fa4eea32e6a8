@@ -1,0 +1,20 @@
+import java.util.*;
+import java.util.HashSet;
+
+
+public class TreeSet {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		TreeSet obj=new TreeSet();
+	//	((Object) obj).add("m");
+		obj.add("d");
+		obj.add("m");
+		System.out.println(obj);
+	}
+
+}

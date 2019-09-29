@@ -1,0 +1,34 @@
+import java.util.*;
+public class Accaunt {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		while(true){
+        Scanner sc=new Scanner(System.in);
+		int ch,bal=10000,amt;
+		System.out.println(" enter 1 for withdrow");
+		System.out.println(" enter 2 for diposite");		
+		System.out.println("enter your choice  ");
+		ch=sc.nextInt();
+		switch(ch)
+		{
+		case 1:
+			System.out.println("enter your amount");
+			amt=sc.nextInt();
+			bal=bal-amt;
+			System.out.println("amount left ="+bal);
+			break;
+		case 2:
+			System.out.println("enter your amount");
+			amt=sc.nextInt();
+			bal=bal+amt;
+			System.out.println("amount left ="+bal);
+			break;
+		}
+	}
+
+}
+}

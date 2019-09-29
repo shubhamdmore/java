@@ -1,0 +1,24 @@
+package Exception;
+ class B
+{
+     public void show()
+	{
+		System.out.println("hiiiiiiiiiii");
+	}
+     public void show(int a)
+	{
+		System.out.println("hiiiiiiiiiii");
+	}
+	 
+}
+public class A extends B{
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+
+	}
+
+}

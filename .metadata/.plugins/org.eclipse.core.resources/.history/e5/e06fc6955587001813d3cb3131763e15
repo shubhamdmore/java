@@ -1,0 +1,17 @@
+
+public class statickey {
+
+	/**
+	 * @param args
+	 */
+	static int roll=21;
+     string name="shubham";
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		statickey s=new statickey();
+		System.out.println(roll);
+		System.out.println(name);;
+	}
+
+}

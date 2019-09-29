@@ -1,0 +1,16 @@
+
+public class demo {
+
+	/**
+	 * @param args
+	 */
+	int i;
+	String s;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		demo d=new demo();
+		System.out.println(d.i);
+        System.out.println(d.s);
+	}
+
+}

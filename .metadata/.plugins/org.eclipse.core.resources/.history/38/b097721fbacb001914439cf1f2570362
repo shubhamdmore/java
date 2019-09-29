@@ -1,0 +1,16 @@
+import java.util.*;
+public class Fibonacy {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner in = new Scanner(System.in);
+		int n1=0,n2=1,n3;
+		System.out.println("\t"+n1);
+		System.out.println("\t"+n2);
+	}
+
+}

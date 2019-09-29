@@ -1,0 +1,16 @@
+
+public class MyConstructor {
+
+	/**
+	 * @param args
+	 */
+	MyConstructor()
+	{
+		System.out.println("constructor is called autometically");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MyConstructor obj = new MyConstructor();
+	}
+
+}

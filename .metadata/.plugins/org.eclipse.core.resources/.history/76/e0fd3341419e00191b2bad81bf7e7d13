@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class PrimeNum {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int no , i=2 , c=0;
+		System.out.println("enter any number");
+		Scanner in=new Scanner(System.in);
+		no=in. nextInt();
+		for(i=2;i<no;i++)
+		{
+			if(no%i==0)
+			{
+				c++;
+			}
+		}
+		if(c>0)
+		{
+			System.out.println("this is prime number");
+		}
+		else
+		{
+			System.out.println("this is not a prime number");
+		}
+	}
+	
+}

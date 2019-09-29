@@ -1,0 +1,30 @@
+
+public interface I1 {
+
+	void add();
+	void mult();
+	
+}
+class X implements I1
+{
+	void add(int a,int b)
+	{
+		int c=a+b;
+		System.out.println("Addtion is ="+c);
+	}
+	void mult(int x,int y)
+	{
+		int d=x*y;
+		System.out.println("Addtion is ="+d);
+	}
+}
+class eg
+{
+	public static void main(String args[])
+	{
+		A obj=new A();
+		obj.add(10, 10);
+		obj.mult(10, 10);
+	}
+	
+}

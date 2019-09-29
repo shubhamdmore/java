@@ -1,0 +1,38 @@
+class P11
+{
+	public int i = 10;
+	void method1()
+	{
+		System.out.println("this is super class metod");
+	}
+}
+class C1 extends P11
+{
+	void method2()
+	{
+		System.out.println("value of i ="+i);
+	}
+}
+class C2 extends C1
+{
+	void method3()
+	{
+		System.out.println("This is multilevel inheritance");
+	}
+}
+
+
+public class Inheritance {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     C2 obj = new C2();
+     obj.method1();
+     obj.method2();
+     obj.method3();
+	}
+
+}
